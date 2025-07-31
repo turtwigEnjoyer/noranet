@@ -276,9 +276,66 @@ body.light-theme{
     transform: scale(1);
 }
 
+.banner{
+    margin-top: 10rem;
+    width: 75%;
+    padding: 1.5rem;
+    display: block;
+    align-self: center;
+
+}
 
 /* Featured articles */
 
+.posts-offset{
+    margin-top: 10rem
+}
+
+.posts > .list{
+    position: static;
+    flex-direction: column;
+}
+
+.featured-stuff{
+    width: 90%;
+    max-width: 100%;
+    align-items: center;
+}
+
+.featured-stuff .col-assorted{
+    flex-direction: column;
+    width: 133%;
+}
+
+
+
+.post{
+    background-color: var(--secondary-background-color);
+    border-radius: 8px;
+    width: 50% ;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.post .title{
+    display: block;
+    font-size: var(--font-size-md);
+    text-align: center;
+    
+}
+
+.post .body{
+    font-size: var(--font-size-sm);
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.post .media{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 /* Featured articles - Sidebar */
 
 /* Quick read */
